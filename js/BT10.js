@@ -18,8 +18,10 @@ if (isNaN(numA)) {
           break;
         case "-":
           alert(`Kết quả của ${numA} ${operator} ${numB} là: ${numA - numB}`);
+          break;
         case "*":
           alert(`Kết quả của ${numA} ${operator} ${numB} là: ${numA * numB}`);
+          break;
         case "/":
           alert(`Kết quả của ${numA} ${operator} ${numB} là: ${numA / numB}`);
           break;
